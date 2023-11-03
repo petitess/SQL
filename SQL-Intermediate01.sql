@@ -90,3 +90,16 @@ SELECT DATEADD(HOUR, 2, GETDATE())
 SELECT FORMAT(DATEADD(HOUR, 2, GETDATE()), 'yyyy_MM_dd_HH_mm')
 SELECT DATEDIFF(HOUR, GETDATE(), DATEADD(HOUR, 2, GETDATE()))
 SELECT DATEDIFF(MINUTE, GETDATE(), DATEADD(HOUR, 2, GETDATE()))
+--
+SET IDENTITY TutorialAppSchema.Computer ON --Let's user change IDENTITY
+--- CHAR(10) 
+--- VARCHAR(10) - 
+--- NVARCHAR(255) - accepts symbols
+--- BIT - bool
+--- DECIMAL(18, 4)
+--INSERT DATA
+--DELETE
+DELETE FROM TutorialAppSchema.Computer WHERE ComputerId = 302
+--UPDATE
+UPDATE TutorialAppSchema.Computer SET CPUCores = 4 WHERE Motherboard = 'Voonte'
+--
