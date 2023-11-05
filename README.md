@@ -79,6 +79,7 @@ VALUES
     )
 --DELETE
 DELETE FROM TutorialAppSchema.Computer WHERE ComputerId = 302
+DELETE FROM TutorialAppSchema.UserSalary WHERE Salary LIKE '%55511%'
 --UPDATE
 UPDATE TutorialAppSchema.Computer SET CPUCores = 4 WHERE Motherboard = 'Voonte'
 --
