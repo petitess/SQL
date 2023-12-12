@@ -138,6 +138,9 @@ CREATE OR ALTER PROCEDURE TutorialAppSchema.spUser_Upsert
     @LastName NVARCHAR(50),
     @Email NVARCHAR(50),
     @Gender NVARCHAR(50),
+    @JobTitle NVARCHAR(50),
+    @Department NVARCHAR(50),
+    @Salary DECIMAL(18,4),
     @Active BIT = 1,
     @UserId INT = NULL
 AS
@@ -150,10 +153,10 @@ BEGIN
         FROM TutorialAppSchema.Users
         WHERE Email = @Email)
         BEGIN
+            DECLARE @OutputUserId INT
 
             INSERT INTO TutorialAppSchema.Users
-                ([UserId],
-                [FirstName],
+                ([FirstName],
                 [LastName],
                 [Email],
                 [Gender],
@@ -166,6 +169,29 @@ BEGIN
                     @Gender,
                     @Active 
             )
+            SET @OutputUserId = @@IDENTITY
+            INSERT INTO TutorialAppSchema.UserSalary
+                (
+                UserId,
+                Salary
+                )
+            VALUES
+                (
+                    @OutputUserId,
+                    @Salary
+            )
+            INSERT INTO TutorialAppSchema.UserJobInfo
+                (
+                UserId,
+                JobTitle,
+                Department
+                )
+            VALUES
+                (
+                    @OutputUserId,
+                    @JobTitle,
+                    @Department
+            )
         END
     END
     ELSE
@@ -177,7 +203,13 @@ BEGIN
             Gender = @Gender,
             Active = @Active
     WHERE UserId = @UserId
-
+        UPDATE TutorialAppSchema.UserSalary
+        SET Salary = @Salary
+        WHERE UserId = @UserId
+        UPDATE TutorialAppSchema.UserJobInfo
+        SET Department = @Department,
+            JobTitle = @JobTitle
+        WHERE UserId = @UserId
     END
 END
 ------------
