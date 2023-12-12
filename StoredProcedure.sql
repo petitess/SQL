@@ -225,3 +225,28 @@ BEGIN
     DELETE FROM TutorialAppSchema.UserJobInfo WHERE UserId = @UserId
 END
 ---------------
+USE DotNetCourseDatabase;
+GO
+
+CREATE OR ALTER PROCEDURE TutorialAppSchema.spPosts_Get
+    /*EXEC TutorialAppSchema.spPosts_Get @UserId = 1020, @SearchValue = 'RAIN'*/
+    /*EXEC TutorialAppSchema.spPosts_Get @PostId = 2*/
+    @UserId INT = NULL,
+    @SearchValue NVARCHAR(MAX) = NULL,
+    @PostId INT = NULL
+AS
+BEGIN
+    SELECT [Posts].[PostId],
+        [Posts].[UserId],
+        [Posts].[PostTitle],
+        [Posts].[PostContent],
+        [Posts].[PostCreated],
+        [Posts].[PostUpdated]
+    FROM TutorialAppSchema.Posts AS Posts
+    WHERE Posts.UserId = ISNULL(@UserId, UserId)
+        AND Posts.PostId = ISNULL(@PostId, PostId)
+        AND (@SearchValue IS NULL
+        OR PostContent LIKE '%' + @SearchValue + '%'
+        OR PostTitle LIKE '%' + @SearchValue + '%')
+END
+------------------------
