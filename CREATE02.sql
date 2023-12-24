@@ -1,10 +1,10 @@
-USE DotNetCourseDatabase;
-GO
-
-CREATE TABLE TutorialAppSchema.Auth (
-    Email NVARCHAR(100)
-    , PasswordHash VARBINARY(MAX)
-    , PasswordSalt VARBINARY(MAX)
+CREATE TABLE NewTabel
+(
+    [Id] [int] IDENTITY (1,1) PRIMARY KEY,
+    [City] [varchar] (50) NULL,
+    [Temperature] [int] NULL,
+    [Description] [varchar] (50) NULL,
+    [TimeZone] [varchar] (50) NULL
 )
 
-SELECT * FROM TutorialAppSchema.Auth
+DROP TABLE NewTabel
