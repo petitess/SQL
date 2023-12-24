@@ -1,4 +1,4 @@
-CREATE TABLE NewTabel
+CREATE TABLE WeatherInfo
 (
     [Id] [int] IDENTITY (1,1) PRIMARY KEY,
     [City] [varchar] (50) NULL,
@@ -7,6 +7,20 @@ CREATE TABLE NewTabel
     [TimeZone] [varchar] (50) NULL
 )
 
-DROP TABLE NewTabel
+INSERT WeatherInfo 
+(
+    [City],
+    [Temperature],
+    [Description],
+    [TimeZone]
+) VALUES
+(
+'Gothenburg',
+-2,
+'Cold',
+'Europe/Stockholm'
+)
 
-SELECT * from [sqldb-weather-01].dbo.NewTabel
+SELECT * from [sqldb-weather-01].dbo.WeatherInfo
+
+DROP TABLE WeatherInfo
