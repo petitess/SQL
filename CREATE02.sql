@@ -8,3 +8,5 @@ CREATE TABLE NewTabel
 )
 
 DROP TABLE NewTabel
+
+SELECT * from [sqldb-weather-01].dbo.NewTabel
