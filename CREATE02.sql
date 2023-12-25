@@ -44,4 +44,6 @@ USE [sqldb-weather-01]
 
 SELECT * from [sqldb-weather-01].dbo.WeatherInfo
 
+SELECT * from [sqldb-weather-01].dbo.WeatherInfo ORDER by Id DESC
+
 DROP TABLE WeatherInfo
