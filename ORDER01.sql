@@ -10,3 +10,6 @@ ISNULL([CPUCores], 4) AS CPUCores,
 [Price],
 [VideoCard] FROM TutorialAppSchema.Computer
 ORDER BY ReleaseDate DESC
+-------------
+SELECT * from [sqldb-weather-01].dbo.WeatherInfo ORDER by Id DESC
+
