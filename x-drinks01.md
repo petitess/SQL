@@ -48,67 +48,44 @@
 | 1 wheel jalapeño pepper | 1 wheel jalapeño pepper
 | 60 ml reposado tequila | 60 ml Gordon's
 
-```ml
+### Saladito
+| Orginal  |  Alcohol Free |
+|---|---|
+| 60 ml Mezcal | Gordon's
+| 22 ml Honey Syrup | 22 ml Honey Syrup
+| 22 ml fresh lime juice | 22 ml fresh lime juice
+| cayenne pepper on top | cayenne pepper on top
 
-----Saladito
-60ml Mezcal
-23ml Honey Syrup
-23ml Lime Juice
-cayenne pepper on top
+### Saladito
+| Orginal  |  Alcohol Free |
+|---|---|
+| 45 ml white rum | 45 ml  Gordon's
+| 10 ml simple syrup | 10 ml simple syrup
+| 22 ml fresh lime juice | 22 ml fresh lime juice
+| parkling wine, to top | parkling wine, to top
+| 1 handful cucumber pieces | 1 handful cucumber pieces
+| 1 handful cubed watermelon pieces | 1 handful cubed watermelon pieces
 
-----Saladito-No-Alc
-60ml Gordon's
-23ml Honey Syrup
-23ml Lime Juice
-cayenne pepper on top
------Ajax Punch
-45 ml white rum
-10 ml simple syrup
-22 ml lime
-sparkling wine, to top
-1 handful cucumber pieces
-1 handful cubed watermelon pieces
------Ajax Punch-No-Alc
-45 ml  Gordon's
-10 ml simple syrup
-22 ml lime
-sparkling wine, to top
-1 handful cucumber pieces
-1 handful cubed watermelon pieces
------Dark and Stormy
-60 ml Goslings Black Seal rum
-22 ml lime juice, freshly squeezed
-100 ml   Ginger beer, to top
-Garnish: lime wheel
------Dark and Stormy-No_alc
-60 ml  Gnista
-22 ml lime juice, freshly squeezed
-100 ml Ginger beer, to top
-Garnish: lime wheel
------Mamie Taylor
-60 ml blended scotch
-22 ml lime juice, freshly squeezed
-Ginger beer, chilled, to top
-Garnish: lime wedge
------Mamie Taylor-No-Alc
-60 ml  Lyre's Amaretti
-22 ml lime juice, freshly squeezed
-Ginger beer, chilled, to top
-Garnish: lime wedge
------Pimm's #1 Cup
-60 ml Pimm’s No. 1
-22 ml lemon juice, freshly squeezed
-Ginger ale/beer to top
-mint
-lime/orange/lemon
-cucumber 
-Garnish: cucumber slice
------Pimm's #1 Cup-No-Alc
-60 ml  Franka Nordic Aperitif
-22 ml lemon juice, freshly squeezed
-Ginger ale/beer to top
-mint
-lime/orange/lemon
-cucumber 
-Garnish: cucumber slice
-```
+### Saladito
+| Orginal  |  Alcohol Free |
+|---|---|
+| 60 ml Goslings Black Seal rum | Gnista
+| 22 ml fresh lime juice | 22 ml fresh lime juice
+| 100 ml Ginger beer, to top | 100 ml Ginger beer, to top
+
+### Mamie Taylor
+| Orginal  |  Alcohol Free |
+|---|---|
+| 60 ml blended scotch | Lyre's Amaretti
+| 22 ml fresh lime juice | 22 ml fresh lime juice
+| 50 ml Ginger beer, to top | 50 ml Ginger beer, to top
+
+### Pimm's #1 Cup
+| Orginal  |  Alcohol Free |
+|---|---|
+| 60 ml Pimm’s No. 1 | Franka Nordic Aperitif
+| 22 ml fresh lime juice | 22 ml fresh lime juice
+| 50 ml Ginger beer, to top | 50 ml Ginger beer, to top
+| 8–10 mint leaves | 8–10 mint leaves
+| a slice of lime/lemon | a slice of lime/lemon
+| a slice of cucumber | a slice of cucumber
