@@ -5,7 +5,6 @@
 | 30 ml fresh lemon juice | 30 ml fresh lemon juice
 | 20 ml simple syrup | 20 ml simple syrup 
 | 1 egg white | 1 egg white
-| angostura bitter  | Franka Nordic Aperitif 
 
 ### Cosmopolitan Cocktail
 | Orginal  |  Alcohol Free |
