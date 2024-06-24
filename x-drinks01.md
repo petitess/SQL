@@ -14,13 +14,12 @@
 | 30 ml cranberry juice | 30 ml cranberry juice
 | 30 ml fresh lime juice | 30 ml fresh lime juice
 
-### Ivy Gimlet
+### Gimlet
 | Orginal  |  Alcohol Free |
 |---|---|
-| 60 ml vodka | 60 ml Gordon's
+| 50 ml gin | 50 ml Gordon's
 | 30 ml fresh lime juice | 30 ml fresh lime juice
-| 22 ml simple syrup | 22 ml simple syrup
-| 8–10 mint leaves | 8–10 mint leaves
+| 20 ml simple syrup | 20 ml simple syrup
 
 ### Floradora
 | Orginal  |  Alcohol Free |
