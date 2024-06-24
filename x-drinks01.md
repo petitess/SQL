@@ -54,7 +54,7 @@
 | 22 ml fresh lime juice | 22 ml fresh lime juice
 | cayenne pepper on top | cayenne pepper on top
 
-### Saladito
+### Ajax Punch
 | Orginal  |  Alcohol Free |
 |---|---|
 | 45 ml white rum | 45 ml  Gordon's
@@ -64,7 +64,7 @@
 | 1 handful cucumber pieces | 1 handful cucumber pieces
 | 1 handful cubed watermelon pieces | 1 handful cubed watermelon pieces
 
-### Saladito
+### Dark and Stormy
 | Orginal  |  Alcohol Free |
 |---|---|
 | 60 ml Goslings Black Seal rum | Gnista
