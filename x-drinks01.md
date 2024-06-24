@@ -2,7 +2,7 @@
 | Orginal  |  Alcohol Free |
 |---|---|
 | 50 ml whisky (bourbon) | 50 ml Lyre's American Malt / Lyre's Amaretti
-| 30 ml fresh lime juice | 30 ml fresh lime juice
+| 30 ml fresh lemon juice | 30 ml fresh lemon juice
 | 20 ml simple syrup | 20 ml simple syrup 
 | 1 egg white | 1 egg white
 | angostura bitter  | Franka Nordic Aperitif 
